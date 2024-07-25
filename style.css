@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: #888;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttons button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    opacity: 0.9;
+}
+
+.buttons button:active {
+    opacity: 0.5;
+}
+
+#carCanvas {
+    background: #bbb;
+}
+
+#networkCanvas {
+    background: black;
+}
+
+
+
